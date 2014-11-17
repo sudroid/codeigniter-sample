@@ -1,0 +1,43 @@
+#topbar {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background: #1A1A1A;
+	-webkit-transform: scale3d(1,1,1);
+	top: 0;
+}
+
+#content {
+	position:relative;
+	margin-top: 42px;
+}
+
+#footer {
+	background-color: #eee;
+	padding:1em;
+}
+
+#map-canvas {
+	height:30em;
+	margin:0px;
+	padding:0px;
+}
+
+.ui-datepicker,
+.ui-datepicker table,
+.ui-datepicker tr,
+.ui-datepicker td,
+.ui-datepicker th {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+}
+
+.red {
+	background:red;
+}
+
+.green {
+	background:green;
+}
